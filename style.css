@@ -49,7 +49,7 @@ nav a:hover{
     height: 97vh;
 }
 
-.contact button{
+.contact_button button{
 
     
     background-color: azure;
@@ -67,7 +67,7 @@ nav a:hover{
     padding-left: 10.7vh;
 }
 
-.contact button:hover{
+.contact_button button:hover{
 
     background-color:rgb(14, 15, 20);
     color: azure;
@@ -127,6 +127,7 @@ line-height: 55px;
 border-radius: 7.42px;
 margin-left: 15px;
 margin-right: 15px;
+ box-shadow: 4px 4px 5.4px rgb(13, 12, 14) inset;
 }
 .list_items img{
 width: 30px;
@@ -137,7 +138,7 @@ top: 10px;
 }
 #cross{
 position: relative;
-right: -20px;
+right: -60px;
 border-radius: 7.42px;
 width: 30px;
 height: 30px;

@@ -1,15 +1,17 @@
 body{
-background-color: rgb(14, 15, 20);
+background-color: #000300;
+padding:0;
+margin: 0;
 
 }
 nav{
-    
+    position: sticky;
 background-color: rgb(0, 124, 93);
 width:100%;
-line-height:55px;
+line-height:50px;
 display: flex;
 justify-content: space-around;
-border-radius: 15px;
+
 
 }
 nav a {
@@ -18,7 +20,7 @@ nav a {
     padding-left: 40px;
     padding-right: 40px;
     letter-spacing: 3px;
-    font-size:1.2rem;
+    font-size:1.1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: ease 100ms;
     text-shadow: 0px 0px 3.4px  azure;
@@ -35,9 +37,9 @@ nav a:hover{
     font-family: Helvetica, sans-serif;
     color: azure;
     letter-spacing: 3.14px;;
-    font-size: 7vh;
+    font-size: 5vh;
    padding-left: 10vh;
-   text-shadow: 0px 0px 7.4px  azure;
+   text-shadow: 0px 0px 4.4px  azure;
 }
 
 .flexbox{
@@ -46,7 +48,7 @@ nav a:hover{
     
     justify-content: center;
     align-items: left;
-    height: 97vh;
+    height: 90vh;
 }
 
 .contact_button button{
@@ -56,9 +58,10 @@ nav a:hover{
     color: rgb(72, 72, 75);
     width: 21vh;
     height: 8vh;
-    font-size: 2.7vh;
+    font-size: 3vh;
     box-shadow: 0px 0px 7.4px  azure;
-    font-family: arial;
+    
+    font-family: Calibri;
     letter-spacing: 1px;
     border: 1px solid azure;
 }
@@ -128,6 +131,20 @@ border-radius: 7.42px;
 margin-left: 15px;
 margin-right: 15px;
  box-shadow: 4px 4px 5.4px rgb(13, 12, 14) inset;
+ 
+}
+.list_items a {
+    color: azure;
+ text-decoration: none;
+}
+
+.list_items a:visited {
+    color: azure;
+ text-decoration: none;
+}
+.list_items a:hover {
+    color: rgb(0, 187, 156);
+    text-decoration: none;
 }
 .list_items img{
 width: 30px;
@@ -151,14 +168,25 @@ padding-left: -10.7vh;
 }
 .subhead{
 
-    color: rgb(195, 204, 204);
-    font-size: 4vh;
+    color: rgb(0, 124, 93);
+    font-size: 5vh;
     letter-spacing: 3.14px;
-    padding-left: 10.7vh;
+    padding-left: 10vh;
     position: relative;
-    top: -55px;
+    top: -43px;
     font-family: Helvetica, sans-serif;
 }
+
+.description{
+    color: #a1a7a7;
+    font-size: 3vh;
+    letter-spacing: 1px;
+    padding-left: 10vh;
+    position: relative;
+    top: -35px;
+    font-family: Helvetica, sans-serif;
+}
+
 #overlay{
     opacity: 0;
     transition: ease 500ms;
